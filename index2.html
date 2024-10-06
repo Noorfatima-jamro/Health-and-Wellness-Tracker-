@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Health and Wellness Tracker for Kidney Health</title>
+</head>
+<body>
+    <header>
+        <h1>Kidney Health Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#tips">Daily Tips</a></li>
+                <li><a href="#food">Food Diary</a></li>
+                <li><a href="#profile">User Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tips">
+            <h2>Daily Tips</h2>
+            <ul id="tipsList"></ul>
+        </section>
+
+        <section id="food">
+            <h2>Food Diary</h2>
+            <input type="text" id="foodInput" placeholder="Enter food item">
+            <button id="addFoodBtn">Add</button>
+            <ul id="foodList"></ul>
+        </section>
+
+        <section id="profile">
+            <h2>User Profile</h2>
+            <input type="text" id="usernameInput" placeholder="Enter your name">
+            <button id="saveProfileBtn">Save Profile</button>
+            <div id="userProfile"></div>
+        </section>
+    
+    <section id="reminders">
+        <h2>Set Reminder</h2>
+        <input type="number" id="reminderTime" placeholder="Time in minutes">
+        <button id="setReminderBtn">Set Reminder</button>
+        <p id="reminderMessage"></p>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kidney Health Tracker</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
